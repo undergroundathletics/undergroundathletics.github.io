@@ -1,19 +1,27 @@
 import {css, html, LitElement} from 'lit';
 import sharedStyles from '../styles/shared-styles';
 import pageStyles from '../styles/page-styles';
+import './shared/i-con';
 
 class JOin extends LitElement {
     static styles = [
         sharedStyles,
         pageStyles,
         css`
+            :host {
+                max-width: 1100px;
+                margin: 0 auto;
+            }
 
+            i-con {
+                vertical-align: -1px;
+            }
         `
     ];
 
     render = () => html`
         <h5>
-            <i class="fas fa-credit-card"></i>
+            <i-con name="profile" color="rgba(0, 0, 0, 0.8)" no-hover></i-con>&nbsp;
             Pricing
         </h5>
 

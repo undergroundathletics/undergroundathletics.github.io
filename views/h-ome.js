@@ -44,7 +44,7 @@ class HOme extends LitElement {
 
             footer {
                 padding-top: 40px;
-                padding-bottom: 400px;
+                padding-bottom: 350px;
             }
 
             footer label {
@@ -56,8 +56,8 @@ class HOme extends LitElement {
                 padding: 10px;
                 text-align: center;
                 vertical-align: top;
-                width: 375px;
-                height: 350px;
+                width: 350px;
+                height: 325px;
                 border-radius: 4px;
                 text-decoration: none;
                 color: var(--text-color);
@@ -70,28 +70,38 @@ class HOme extends LitElement {
                 font-size: 1.2rem;
             }
 
+            i-con {
+                vertical-align: -2px;
+            }
+
             #facebook {
+                background: #4267b219;
                 border: 2px solid #4267b2;
                 margin-right: 20px;
             }
             #facebook:hover {
-                background: #4267b209;
+                background: #4267b229;
             }
             #facebook span {
                 color: #4267b2;
             }
 
             #insta {
+                background: #8a3ab919;
                 border: 2px solid #8a3ab9;
             }
             #insta:hover {
-                background: #8a3ab909;
+                background: #8a3ab929;
             }
             #insta span {
                 color: #8a3ab9
             }
 
             @media (max-width: 810px) {
+                #facebook {
+                    margin-right: 0;
+                }
+
                 main a {
                     width: 90%;
                     margin-bottom: 35px;
@@ -109,13 +119,13 @@ class HOme extends LitElement {
         <header>
             <div>
                 <p>
-                    Underground athletics provides a hybrid experience that combines strength, Olympic lifting, and metabolic training with a party style stmosphere.
+                    Underground athletics provides a hybrid experience that combines strength, Olympic lifting, and metabolic training with a party style atmosphere.
                 </p>
                 <!-- replace with team pic -->
                 <img src="img/logo.jpg" alt="Underground Athletics Logo">
                 <p>
 
-                    With a convernient location off 23, our Carpenter Road setup allows for outdoor workouts, during hthe summer months, and a fun, relaxing indoor environment during the cooler months.
+                    With a convenient location off 23, our Carpenter Road setup allows for outdoor workouts, during the summer months, and a fun, relaxing indoor environment during the cooler months.
                     <br><br>
                     We strive to empower and inspire athletes to discover their best self through a positive and encouraging workout environment.
                 </p>
@@ -125,18 +135,20 @@ class HOme extends LitElement {
         <main>
             <div>
                 <h2>
-                    <i class="fas fa-hashtag"></i>
+                    <i-con name="hashtag" color="rgba(0, 0, 0, 0.8)" no-hover></i-con>&nbsp;
                     Social
                 </h2>
 
                 <a href="https://www.facebook.com/UndergroundAthleticsLLC" target="_blank" id="facebook">
                     <div>
+                        <i-con name="facebook" color="rgba(0, 0, 0, 0.8)"></i-con>&nbsp;
                         Facebook
                         <span>@UndergroundAthleticsLLC</span>
                     </div>
                 </a>
                 <a href="https://www.instagram.com/underground_athletics_llc" target="_blank" id="insta">
                     <div>
+                        <i-con name="instagram" color="rgba(0, 0, 0, 0.8)"></i-con>&nbsp;
                         Instagram
                         <span>@underground_athletics_llc</span>
                     </div>
