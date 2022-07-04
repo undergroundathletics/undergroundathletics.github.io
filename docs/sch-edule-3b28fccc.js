@@ -1,1 +1,0 @@
-import{s as e,$ as s}from"./app-shell-a6f92001.js";customElements.define("sch-edule",class extends e{createRenderRoot(){return this}render=()=>s`<h4><i class="far fa-calendar-alt"></i> Schedule</h4><p>Classes Everyday</p><div class="card">Morning Class:<br><br>9 AM</div><div class="card">Evening Class:<br><br>6 PM</div>`});

@@ -1,1 +1,0 @@
-import{s as e,$ as s}from"./app-shell-a6f92001.js";customElements.define("j-oin",class extends e{createRenderRoot(){return this}render=()=>s`<h5><i class="fas fa-credit-card"></i> Pricing</h5><div class="card">$50 /single<br></div><div class="card">$80 /couple</div>`});

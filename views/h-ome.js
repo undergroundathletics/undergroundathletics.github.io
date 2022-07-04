@@ -1,22 +1,128 @@
-import {html, LitElement} from 'lit';
+import {css, html, LitElement} from 'lit';
+import sharedStyles from '../styles/shared-styles';
+import pageStyles from '../styles/page-styles';
 
 class HOme extends LitElement {
-    createRenderRoot() {
-        return this;
-    }
+    static styles = [
+        sharedStyles,
+        pageStyles,
+        css`
+            :host {
+                padding: 0;
+                text-align: center;
+                background: var(--text-secondary-color);
+            }
+
+            header,
+            main,
+            footer {
+                padding: 10px 15px 35px;
+                min-height: 250px;
+            }
+
+            header > div,
+            main > div,
+            footer > div {
+                max-width: 1100px;
+                margin: 0 auto;
+            }
+
+            header,
+            footer {
+                background: var(--light-primary-color);
+            }
+
+            main {
+                background: #fafafa;
+                color: rgba(0, 0, 0, 0.84);
+            }
+
+            h2,
+            h3 {
+                color: #000;
+            }
+
+            footer {
+                padding-top: 40px;
+                padding-bottom: 400px;
+            }
+
+            footer label {
+                font-weight: bold;
+            }
+
+            main a {
+                display: inline-block;
+                padding: 10px;
+                text-align: center;
+                vertical-align: top;
+                width: 375px;
+                height: 350px;
+                border-radius: 4px;
+                text-decoration: none;
+                color: var(--text-color);
+                font-size: 1.75rem;
+            }
+            main a div {
+                margin-top: 130px;
+            }
+            main span {
+                font-size: 1.2rem;
+            }
+
+            #facebook {
+                border: 2px solid #4267b2;
+                margin-right: 20px;
+            }
+            #facebook:hover {
+                background: #4267b209;
+            }
+            #facebook span {
+                color: #4267b2;
+            }
+
+            #insta {
+                border: 2px solid #8a3ab9;
+            }
+            #insta:hover {
+                background: #8a3ab909;
+            }
+            #insta span {
+                color: #8a3ab9
+            }
+
+            @media (max-width: 810px) {
+                main a {
+                    width: 90%;
+                    margin-bottom: 35px;
+                    margin-right: 0;
+                }
+
+                h3 {
+                    margin-top: 20px;
+                }
+            }
+        `
+    ];
 
     render = () => html`
         <header>
             <div>
-                <h1>Underground Athletics</h1>
+                <p>
+                    Underground athletics provides a hybrid experience that combines strength, Olympic lifting, and metabolic training with a party style stmosphere.
+                </p>
+                <!-- replace with team pic -->
                 <img src="img/logo.jpg" alt="Underground Athletics Logo">
                 <p>
-                    Text here about the gym.
+
+                    With a convernient location off 23, our Carpenter Road setup allows for outdoor workouts, during hthe summer months, and a fun, relaxing indoor environment during the cooler months.
+                    <br><br>
+                    We strive to empower and inspire athletes to discover their best self through a positive and encouraging workout environment.
                 </p>
             </div>
         </header>
 
-        <section id="social" class="light">
+        <main>
             <div>
                 <h2>
                     <i class="fas fa-hashtag"></i>
@@ -36,14 +142,10 @@ class HOme extends LitElement {
                     </div>
                 </a>
             </div>
-        </section>
+        </main>
 
-        <footer class="light">
+        <footer>
             <div>
-                <article>
-
-                </article>
-
                 <article>
                     <h6>
                         <i class="far fa-address-card"></i>
