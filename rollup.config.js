@@ -12,6 +12,10 @@ export default {
             {
                 src: 'img/*',
                 dest: 'docs/img'
+            },
+            {
+                src: 'CNAME',
+                dest: 'docs'
             }
         ]}),
         babel({babelHelpers: 'bundled'}),
