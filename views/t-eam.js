@@ -70,14 +70,14 @@ class TEam extends LitElement {
             <div>
                 <h1>
                     <i-con name="users" color="rgba(0, 0, 0, 0.8)" no-hover></i-con>&nbsp;
-                    Team
+                    UA Team
                 </h1>
                 <article>
                     <div>
                         <img src="img/meet_team.jpg" width="300" height="404">
                     </div>
                     <p>
-                        The team, the team, the team.
+                        Let's unlock your potential to maximize your performance!
                     </p>
                 </article>
             </div>
@@ -89,18 +89,18 @@ class TEam extends LitElement {
                     <img src="img/meet_jamie_shawn.jpg" width="250" height="380">
                 </div>
                 <div>
-                    <h2>Shawn</h2>
+                    <h2>Shawn Catlett</h2>
                     <p>
                         In high school I was always active and played sports. After high school I found myself gaining weight and ended up with Type 2 Diabetes. I knew that I needed to make a change, so I changed my lifestyle to reflect healthier living.
                         I started with obstacle course racing and weight training with hopes that it would help my diabetes diagnosis. About 5 years ago I walked into a CrossFit gym to learn how to climb a rope for the obstacle course racing and fell in love with the energy and vibe
                         of CrossFit. I knew not only that I wanted to do be a part of it, but I also wanted to help others understand the goals they had were achievable. This inspired me to combine the two things I love, weight training and CrossFit style workouts, which resulted
-                        in a hybrid fitness that everyone can do. I  This started as a small group and has now grown into the gym we have today, where my wife and I, along with our team, are able to change people's lives. We feel incredibly lucky to be able to share our passion with
+                        in a hybrid fitness that everyone can do. This started as a small group and has now grown into the gym we have today, where my wife and I, along with our team, are able to change people's lives. We feel incredibly lucky to be able to share our passion with
                         others.
                         <br><br>
                         CFL1
                     </p>
                     <!-- img/meet_jamie.jpg -->
-                    <h2>Jamie</h2>
+                    <h2>Jamie Catlett</h2>
                     <p>
                         I found a love for sports while in school. After school, I found a love for coaching sports and helping others be successful. Because of our business, Underground Athletics, my daughter has also found a passion for the hybrid workouts
                         our gym creates. I have coached all her sports from day one, which has inspired me to get my CFL1 to be a better coach for her at our gym.
@@ -127,11 +127,11 @@ class TEam extends LitElement {
                         all the fad diets at the time and trying to find a “quick fix” for my excessive weight gain. Then I found
                         myself pregnant with my second child and again was put on bed rest. After this I had lost all hope for
                         ever being fit and healthy again. I gave up all together. I saw an ad on Facebook for women seeking
-                        fitness. It was for only women, so I decided to give it a shot. Little did I know this is where my life would
+                        fitness. It was for women only, so I decided to give it a shot. Little did I know this is where my life would
                         change forever. I went to meet with the person running this
-                        “women only” program. I walked in the door and saw people doing crazy things. I turned around to walk
-                        out and I hear someone call my name and say, “Hey! I'm Rob. Come into my office and let's talk about
-                        your journey!” Had that not happened I have no idea where I'd be today. I did a 6-week challenge and
+                        "women only" program. I walked in the door and saw people doing crazy things. I turned around to walk
+                        out and I hear someone call my name and say, "Hey! I'm Rob. Come into my office and let's talk about
+                        your journey!"" Had that not happened I have no idea where I'd be today. I did a 6-week challenge and
                         I've stuck with it ever since. I've gained so much knowledge and so much has happened for the better
                         for me. Now I'm motivated by helping others on their journey to being fitter and healthier!
                         My favorite part of UA is the daily opportunity I get to better my life, my kids lives and the lives of the
@@ -159,7 +159,7 @@ class TEam extends LitElement {
                         Athletics has. Everyone is so friendly and judgement free. All of our members are there to work hard and
                         have fun.
                         <br><br>
-                        Favorite quote: "Discipline is the pathway to freedom."" Jocko Willink
+                        Favorite quote: "Discipline is the pathway to freedom." Jocko Willink
                     </p>
                 </div>
             </article>
@@ -178,7 +178,7 @@ class TEam extends LitElement {
                         motivation to start working out was wanting to be able to do a pull-up. I used to weigh over 300lbs and
                         through healthy eating habits and physical fitness, I have lost over 125lbs, and have gained a lot of
                         muscle. I love helping and encouraging people; we are all capable of great things and I like to ensure
-                        everyone knows that. The best part of UA is the friendly atmosphere an great people.
+                        everyone knows that. The best part of UA is the friendly atmosphere and great people.
                     </p>
                 </div>
             </article>
