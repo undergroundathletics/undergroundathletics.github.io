@@ -89,7 +89,7 @@ class TEam extends LitElement {
                     <img src="img/meet_jamie_shawn.jpg" width="250" height="380">
                 </div>
                 <div>
-                    <h2>Shawn Catlett</h2>
+                    <h2>Shawn Catlett (owner)</h2>
                     <p>
                         In high school I was always active and played sports. After high school I found myself gaining weight and ended up with Type 2 Diabetes. I knew that I needed to make a change, so I changed my lifestyle to reflect healthier living.
                         I started with obstacle course racing and weight training with hopes that it would help my diabetes diagnosis. About 5 years ago I walked into a CrossFit gym to learn how to climb a rope for the obstacle course racing and fell in love with the energy and vibe
@@ -100,7 +100,7 @@ class TEam extends LitElement {
                         CFL1
                     </p>
                     <!-- img/meet_jamie.jpg -->
-                    <h2>Jamie Catlett</h2>
+                    <h2>Jamie Catlett (owner)</h2>
                     <p>
                         I found a love for sports while in school. After school, I found a love for coaching sports and helping others be successful. Because of our business, Underground Athletics, my daughter has also found a passion for the hybrid workouts
                         our gym creates. I have coached all her sports from day one, which has inspired me to get my CFL1 to be a better coach for her at our gym.
@@ -179,6 +179,23 @@ class TEam extends LitElement {
                         through healthy eating habits and physical fitness, I have lost over 125lbs, and have gained a lot of
                         muscle. I love helping and encouraging people; we are all capable of great things and I like to ensure
                         everyone knows that. The best part of UA is the friendly atmosphere and great people.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <div class="img">
+                    <img src="img/meet_becca.jpg" width="250" height="333">
+                </div>
+                <div>
+                    <h2>Becca Moore</h2>
+                    <p>
+                        Coach Becca is an Associate Professor in Exercise Science at Eastern Michigan University.  She has  PhD in Kinesiology from Michigan State University, MS in Exercise Physiology from James Madison University, and is a Certified Strength and Conditioning Specialist (CSCS).
+                        Coach Becca has been an endurance athlete her entire life.  Originially focusing on triathlon from the sprint to ironman distance, shifting to solely running marathons including Boston in 2010, and now competing in ultramarathons.
+                        She also has a strength training background including completing an internship at State of Fitness and competing at the Arnold Classic (American Open Series 1) in Olympic Weightlifting.<br><br>
+                        <a href="https://www.ridgerunnertraining.com/" target="_blank">Ridge Runner Training</a>
                     </p>
                 </div>
             </article>

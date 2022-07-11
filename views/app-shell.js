@@ -64,7 +64,7 @@ class AppShell extends LitElement {
                         Become a member
                     </span>
                     <span class="mobile">
-                        Join
+                        Pricing
                     </span>
                 </vaadin-tab>
                 <vaadin-tab @click="${() => Router.go('/')}">

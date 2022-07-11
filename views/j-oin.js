@@ -25,7 +25,7 @@ class JOin extends LitElement {
             Pricing
         </h5>
 
-        <p>Drop-ins welcome!</p>
+        <p>Drop-ins welcome!  Outdoor workouts, weather, permitting</p>
 
         <div class="card">
             $75 /single<br>
@@ -42,6 +42,8 @@ class JOin extends LitElement {
         <div class="card">
             Personal training available, call for pricing.
         </div>
+
+        <p>Questions?  Email us at <a href="mailto:undergroundathleticsllc@gmail.com">undergroundathleticsllc@gmail.com</a></p>
     `;
 }
 

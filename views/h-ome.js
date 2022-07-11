@@ -56,18 +56,17 @@ class HOme extends LitElement {
                 padding: 10px;
                 text-align: center;
                 vertical-align: top;
-                width: 350px;
-                height: 325px;
-                border-radius: 4px;
+                width: 250px;
+                height: 225px;
+                border-radius: 14px;
                 text-decoration: none;
                 color: var(--text-color);
                 font-size: 1.75rem;
             }
-            main a div {
-                margin-top: 130px;
-            }
             main span {
                 font-size: 1.2rem;
+                display: inline-block;
+                margin-top: 12px;
             }
 
             i-con {
@@ -76,7 +75,6 @@ class HOme extends LitElement {
 
             #facebook {
                 background: #4267b219;
-                border: 2px solid #4267b2;
                 margin-right: 20px;
             }
             #facebook:hover {
@@ -88,7 +86,6 @@ class HOme extends LitElement {
 
             #insta {
                 background: #8a3ab919;
-                border: 2px solid #8a3ab9;
             }
             #insta:hover {
                 background: #8a3ab929;
@@ -141,15 +138,13 @@ class HOme extends LitElement {
 
                 <a href="https://www.facebook.com/UndergroundAthleticsLLC" target="_blank" id="facebook">
                     <div>
-                        <i-con name="facebook" color="rgba(0, 0, 0, 0.8)"></i-con>&nbsp;
-                        Facebook
+                        <img src="img/fb.svg" width="200" height="200">
                         <span>@UndergroundAthleticsLLC</span>
                     </div>
                 </a>
                 <a href="https://www.instagram.com/underground_athletics_llc" target="_blank" id="insta">
                     <div>
-                        <i-con name="instagram" color="rgba(0, 0, 0, 0.8)"></i-con>&nbsp;
-                        Instagram
+                        <img src="img/insta.svg" width="200" height="200">
                         <span>@underground_athletics_llc</span>
                     </div>
                 </a>
