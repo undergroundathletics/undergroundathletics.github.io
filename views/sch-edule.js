@@ -24,24 +24,28 @@ class SchEdule extends LitElement {
             <i-con name="event" color="rgba(0, 0, 0, 0.8)" no-hover></i-con>&nbsp;
             Schedule
         </h4>
-        <p>Classes Mon-Fri</p>
+
+        <p>Weekday Classes (Mon-Fri)</p>
         <div class="card">
-            Morning Class:<br><br>
-            9 AM
+            Morning Classes:<br>
+            5:30 AM<br>
+            9:00 AM
         </div>
         <div class="card">
-            Evening Classes:<br><br>
+            Evening Classes:<br>
             4:30 PM<br>
-            6 PM
+            6:00 PM
         </div>
-        <p>Classes Sat and Sun</p>
+        <br>
+
+        <p>Weekend Classes (Sat and Sun)</p>
         <div class="card">
-            Morning Class:<br><br>
-            9 AM
+            Morning Class:<br>
+            9:00 AM
         </div>
         <div class="card">
-            Evening Classes:<br><br>
-            6 PM
+            Evening Class:<br>
+            6:00 PM
         </div>
     `;
 }
